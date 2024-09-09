@@ -41,20 +41,6 @@ public class User {
         this.password = password;
     }
 
-    public User(String name, String email, String password) {
-        this.name = name;
-        this.email = email;
-        this.password = password;
-    }
-
-    public User() {
-    }
-
-    @Override
-    public String toString() {
-        return "User [name=" + name + ", email=" + email + ", password=" + password + "]";
-    }
-
     public long getId() {
         return id;
     }
